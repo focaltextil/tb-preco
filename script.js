@@ -1,4 +1,4 @@
-const url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vRht2SMUJJcXy4WTZbwgJ12nLTm5XQ5E7DuwKps2g2rRd_0Nvo9xsw8QdKdlWr162VGhrscqt7k7PHg/pub?output=csv";
+const url = 
 
 
 
@@ -23,8 +23,8 @@ function load_data(){
         tipo.forEach(valor => {
             const option = document.createElement('option');
             option.value = valor;
-            option.text = valor;   // Define o texto visível da opção
-            selectbox.appendChild(option);  // Adiciona a opção ao select
+            option.text = valor;
+            selectbox.appendChild(option);
           });
 
         console.log(tipo);

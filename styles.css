@@ -60,6 +60,7 @@
 .subtilte2{
     font-size: 1vw;
     font-weight: 300;
+    
 }
 
 .second-section{
@@ -74,4 +75,5 @@
 aside{
     display: flex;
     flex-direction: column;
+    text-align: right;
 }
